@@ -6,5 +6,6 @@ package domain;
 public enum ElementUnit {
     LITER,
     PART,
-    CASE
+    CASE,
+    WEIGHT
 }

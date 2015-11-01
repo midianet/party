@@ -1,6 +1,7 @@
 package domain;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by marcosfernandocosta on 28/10/15.
@@ -10,6 +11,7 @@ public class Party {
     private Date startDate;
     private Date finishDate;
     private String title;
+    private List<PartyElement> elements;
 
     public Long getId() {
         return id;
@@ -41,6 +43,14 @@ public class Party {
 
     public void setTitle(final String title) {
         this.title = title;
+    }
+
+    public List<PartyElement> getElements() {
+        return elements;
+    }
+
+    public void setElements(final List<PartyElement> elements) {
+        this.elements = elements;
     }
 
 }

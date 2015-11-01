@@ -1,15 +1,16 @@
 package domain;
 
-import com.sun.java.swing.plaf.windows.TMSchema;
-
 /**
  * Created by marcosfernandocosta on 28/10/15.
  */
 public class Participant {
     private Long id;
+    private String email;
+    private String password;
     private String name;
     private Integer age;
     private Party party;
+    private boolean alcoholic;
 
     public Long getId() {
         return id;
@@ -17,6 +18,14 @@ public class Participant {
 
     public void setId(final Long id) {
         this.id = id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(final String email) {
+        this.email = email;
     }
 
     public String getName() {
@@ -35,6 +44,22 @@ public class Participant {
         this.age = age;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(final String password) {
+        this.password = password;
+    }
+
+    public boolean isAlcoholic() {
+        return alcoholic;
+    }
+
+    public void setAlcoholic(final boolean alcoholic) {
+        this.alcoholic = alcoholic;
+    }
+
     public Party getParty() {
         return party;
     }
@@ -42,4 +67,5 @@ public class Participant {
     public void setParty(Party party) {
         this.party = party;
     }
+
 }
