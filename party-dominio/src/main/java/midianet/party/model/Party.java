@@ -1,4 +1,4 @@
-package domain;
+package midianet.party.model;
 
 import java.util.Date;
 import java.util.List;

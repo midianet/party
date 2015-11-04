@@ -11,4 +11,20 @@
         <module>party-dominio</module>
     </modules>
     <packaging>pom</packaging>
+    <properties>
+        <compileSource>1.8</compileSource>
+    </properties>
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

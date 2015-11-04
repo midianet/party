@@ -1,4 +1,4 @@
-package domain;
+package midianet.party.model;
 
 /**
  * Created by marcosfernandocosta on 28/10/15.
